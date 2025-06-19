@@ -6,7 +6,7 @@ export const Container = ({children, className}) => {
 }
 
 
-Container.propTypes = {
+Container.PropTypes = {
   children: PropTypes.node.isRequired,
   className: PropTypes.string
 };
