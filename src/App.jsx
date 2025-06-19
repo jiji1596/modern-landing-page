@@ -1,14 +1,13 @@
+import { Layout } from "./components/Layout"
+import { Hero } from "./components/sections/Hero"
+
+
 function App() {
 
   return (
-    <>
-      <header>
-        <nav className="container">
-          Header
-        </nav>
-      </header>
-
-    </>
+  <Layout title="Edge AI">
+    <Hero />
+  </Layout>
   )
 }
 
