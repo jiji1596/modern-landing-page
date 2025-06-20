@@ -1,6 +1,7 @@
 import { Button } from "../shared/Button";
 import { Container } from "../shared/Container";
 import { Paragraph } from "../shared/Paragraph";
+import { Numbers } from "../sections/Numbers";
 
 export const Hero = () => {
   return (
@@ -30,7 +31,7 @@ export const Hero = () => {
             <div className="flex sm:flex-row flex-col gap-5 w-full">
               <form
                 action="#"
-                className="py-1 pl-6 w-full pr-1 flex gap-3 items-center text-heading-3 shadow-lg shadow-box-shadow border border-box-border bg-box-bg rounded-full ease-linear focus-with:bg-body focus-within:border-primary"
+                className="py-1 pl-6 w-full pr-1 flex gap-3 items-center text-heading-3 shadow-lg shadow-box-shadow border border-box-border bg-box rounded-full ease-linear focus-with:bg-body focus-within:border-primary"
               >
                 <span className="min-w-max pr-2 border-r border-box-border">
                   {" "}
@@ -56,7 +57,7 @@ export const Hero = () => {
                   className="w-full py-3 outline-none bg-transparent"
                 />
                 <Button className="min-w-max text-white">
-                  <span className="hidden sm:flex relative z-[5]">
+                  <span className="relative z-[5]">
                     Get Started
                   </span>
                 </Button>
@@ -75,6 +76,7 @@ export const Hero = () => {
           />
         </div>
       </Container>
+      <Numbers />
     </section>
   );
 };

@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 
 export const Button = ({children, onClick, className = ""}) => {
   return (
-    <button onClick={onClick} className={`px-6 py-3 outline-none rounded-full relative cursor-pointer overflow-hidden border dark:bg-violet-600 ${className}`} >
+    <button onClick={onClick} className={`px-6 py-3 outline-none rounded-full relative cursor-pointer overflow-hidden border-transparent bg-violet-600 ${className}`} >
       {children}
     </button>
   )
