@@ -14,7 +14,7 @@ export const Brands = () => {
           {logos.map((logo, key) => {
             return (
               <div key={key} className="p-4 sm:p-5 rounded-xl bg-white border border-box-border group">
-                <img src={`src/assets/logos/${logo}.png`}
+                <img src={`../../src/assets/logos/${logo}.png`}
                 alt={logo}
                 width="100"
                 height="60"
