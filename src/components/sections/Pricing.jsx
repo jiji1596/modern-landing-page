@@ -6,7 +6,7 @@ import { Button } from "../shared/Button";
 
 export const Pricing = () => {
   return (
-    <section>
+    <section id="pricing">
       <Container className="text-center flex flex-col space-y-5">
         <Title>Pricing</Title>
         <Paragraph>Choose the plan that's right for your business</Paragraph>
@@ -16,10 +16,10 @@ export const Pricing = () => {
           {pricingPlans.map((plan, key) => {
             return (
               <div key={key} className="relative group h-full">
-                <div className="bg-gradient-to-r from-blue-600 to-violet-600 p-1 rounded-3xl h-full">
+                <div className="bg-gradient-to-r from-red-600 to-orange-600 p-1 rounded-3xl h-full">
                   <div className="bg-box border border-box-border rounded-3xl shadow-lg shadow-box-shadows p-8 flex flex-col h-full relative">
                     {plan.bestValue && (
-                      <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-gradient-to-r from-blue-600 to-violet-600">
+                      <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-primary text-white text-xs font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-gradient-to-r from-red-600 to-orange-600">
                         Best Value
                       </div>
                     )}

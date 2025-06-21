@@ -1,7 +1,7 @@
 const services = [
   {
-    title: "Intelligent Automation",
-    description: "Streamline processes and reduce manual tasks.",
+    title: "Web Development",
+    description: "Custom websites and web apps built with modern technologies.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -20,8 +20,8 @@ const services = [
     ),
   },
   {
-    title: "Real‑Time Analytics",
-    description: "Gain actionable insights as events unfold.",
+    title: "UI/UX Design",
+    description: "Intuitive interfaces and polished visuals that engage users.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -40,8 +40,8 @@ const services = [
     ),
   },
   {
-    title: "Predictive Insights",
-    description: " Anticipate trends and mitigate risks before they occur.",
+    title: "Digital Marketing",
+    description: "From SEO to social media strategy, we help your brand grow online.",
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"

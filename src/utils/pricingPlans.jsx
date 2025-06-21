@@ -1,32 +1,32 @@
 const pricingPlans = [
   {
-    title: "Basic",
-    price: "$19/mo",
+    title: "Starter",
+    price: "$29/project",
     features: [
-      "Access to basic AI tools",
-      "Limited data analytics",
+      "Access to pre-vetted freelancers",
+      "1 revision included",
       "Email support",
     ],
   },
   {
-    title: "Pro",
-    price: "$49/mo",
+    title: "Professional",
+    price: "$79/project",
     features: [
-      "Everything in Basic",
-      "Advanced AI features",
-      "Real‑time analytics",
-      "Priority email support",
+      "Everything in Starter",
+      "Priority freelancer matching",
+      "3 revisions",
+      "Chat support",
     ],
     bestValue: true,
   },
   {
-    title: "Enterprise",
-    price: "$99/mo",
+    title: "Premium",
+    price: "$149/project",
     features: [
-      "Everything in Pro",
-      "Dedicated account manager",
-      "Custom integrations",
-      "24/7 premium support",
+      "Everything in Professional",
+      "Dedicated project manager",
+      "Unlimited revisions (within scope)",
+      "Ongoing support for 1 month",
     ],
   },
 ];

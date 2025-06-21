@@ -6,20 +6,20 @@ export const Numbers = () => {
       <Container className="flex justify-center align-center">
         <div className="mx-auto lg:mx-0 p-5 sm:p-6 sm:py-8 max-w-5xl rounded-3xl bg-box border border-box-border shadow-lg shadow-box-shadow md:divide-x divide-box-border grid grid-cols-2 md:grid-cols-4">
           <div className="text-center px-5">
-            <h2 className="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1">100+</h2>
-            <p className="mt-2 text-heading-3">AI Models Implemented</p>
+            <h2 className="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1">50+</h2>
+            <p className="mt-2 text-heading-3">Projects Successfully Delivered</p>
           </div>
           <div className="text-center px-5">
-            <h2 className="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1">250+</h2>
-            <p className="mt-2 text-heading-3">Enterprise Clients</p>
+            <h2 className="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1">220+0+</h2>
+            <p className="mt-2 text-heading-3">Happy Clients Across Industries</p>
           </div>
           <div className="text-center px-5">
-            <h2 className="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1">99.9%</h2>
-            <p className="mt-2 text-heading-3">Uptime Guarantee</p>
+            <h2 className="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1">100%</h2>
+            <p className="mt-2 text-heading-3">Remote & Flexible Talent Network</p>
           </div>
           <div className="text-center px-5">
-            <h2 className="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1">10+</h2>
-            <p className="mt-2 text-heading-3">Years of Innovation</p>
+            <h2 className="font-semibold text-xl sm:text-2xl md:text-4xl text-heading-1">1 Year</h2>
+            <p className="mt-2 text-heading-3">Of Building with Passion and Purpose</p>
           </div>
         </div>
       </Container>
