@@ -10,7 +10,7 @@ import { CTA } from "./components/sections/CallToAction";
 function App() {
 
   return (
-  <Layout title="Edge AI">
+  <Layout title="StudioScale">
     <Hero />
     <Brands />
     <Services />
