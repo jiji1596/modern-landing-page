@@ -17,7 +17,9 @@ export const AboutUs = () => {
           </div>
         </div>
         <div className="w-full md:w-7/12 lg:w-1/2 flex flex-col">
+          <div className="text-center mb-2">
           <Title>About Our Agency</Title>
+          </div>
           <Paragraph>
             We’re a collective of passionate freelancers who believe in
             craftsmanship, collaboration, and transparency. Our flexible
