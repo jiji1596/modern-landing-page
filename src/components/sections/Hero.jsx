@@ -17,7 +17,7 @@ export const Hero = () => {
           {" "}
           <h1 className="text-heading-1 text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold">
             Empower Your Business{" "}
-            <span className="text- transparent bg-clip-text bg-gradient-to-r from-blue-600 to-violet-600">
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-violet-600">
               with AI
             </span>
           </h1>
